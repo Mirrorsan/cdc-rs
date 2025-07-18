@@ -1,0 +1,10 @@
+[package]
+name = "cdc-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+license = "MIT OR Apache-2.0"
+description = "Change Data Capture library for MySQL/MariaDB binary logs"
+
+[dependencies]
+anyhow = "1"

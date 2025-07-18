@@ -1,7 +1,8 @@
+use cdc_rs::{BinlogEvent, BinlogParser, MockBinlogParser};
+
 #[cfg(test)]
 mod tests {
-    use crate::binlog::events::BinlogEvent;
-    use crate::binlog::parser::{BinlogParser, MockBinlogParser};
+    use super::*;
 
     #[test]
     fn test_insert_event() {

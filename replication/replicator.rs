@@ -1,5 +1,3 @@
-
-use crate::binlog::events::BinlogEvent;
 use crate::binlog::parser::{BinlogParser, MockBinlogParser};
 use crate::downstream::sink::EventSink;
 use anyhow::Result;

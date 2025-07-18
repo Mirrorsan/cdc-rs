@@ -1,8 +1,8 @@
+use cdc_rs::{Replicator, BinlogEvent, EventSink, SinkResult};
+
 #[cfg(test)]
 mod tests {
-    use cdc_rs::replication::Replicator;
-    use cdc_rs::binlog::events::BinlogEvent;
-    use cdc_rs::downstream::sink::{EventSink, SinkResult};
+    use super::*;
 
     struct TestSink {
         pub events: Vec<BinlogEvent>,

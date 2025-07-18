@@ -6,3 +6,4 @@ pub mod downstream;
 pub use replication::replicator::Replicator;
 pub use downstream::sink::{EventSink, SinkResult};
 pub use binlog::events::BinlogEvent;
+pub use binlog::parser::{BinlogParser, MockBinlogParser};

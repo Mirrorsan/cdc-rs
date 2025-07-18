@@ -8,3 +8,10 @@ description = "Change Data Capture library for MySQL/MariaDB binary logs"
 
 [dependencies]
 anyhow = "1"
+
+[lib]
+path = "lib.rs" 
+
+[features]
+default = []
+async = []

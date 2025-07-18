@@ -1,0 +1,55 @@
+# === Rust ===
+/target/
+**/*.rs.bk
+**/*.swp
+Cargo.lock
+
+# === Build Artifacts ===
+*.rlib
+*.d
+*.o
+*.so
+*.a
+*.dSYM
+*.exe
+*.dll
+*.obj
+*.crate
+*.log
+
+# === Benchmarking ===
+/criterion/
+*/criterion/
+
+# === Test output ===
+/test-output/
+/tests/tmp/
+/tests/logs/
+
+# === IDEs and editors ===
+# VSCode
+.vscode/
+
+# JetBrains (CLion, IntelliJ)
+.idea/
+*.iml
+
+# Sublime
+*.sublime*
+
+# === OS-generated ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# === Docker / CLI ===
+docker-compose.override.yml
+.env
+*.local
+*.log
+
+# === Misc ===
+/logs/
+/tmp/
+/coverage/
+.nyc_output/

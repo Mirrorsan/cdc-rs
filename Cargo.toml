@@ -7,8 +7,12 @@ license = "MIT OR Apache-2.0"
 description = "Change Data Capture library for MySQL/MariaDB binary logs"
 
 [dependencies]
-anyhow = "1"
+anyhow = "1.0"
 sha1 = "0.10"
+
+[dev-dependencies]
+# For testing
+tokio-test = "0.4"
 
 [lib]
 path = "lib.rs" 
